@@ -1,0 +1,115 @@
+body {
+    background: #001039;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #0032a679;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    transition: top 0.3s;
+}
+
+.logo {
+    max-width: 80px;
+    margin: 0 auto;
+    display: block;
+}
+
+.navbar {
+    justify-content: center;
+}
+
+.nav-link {
+    margin: 0 15px;
+    padding: 10px 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 30px;
+    background-color: #d06627;
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+.nav-link:hover {
+    background-color: #b05f24;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.section {
+    padding: 60px 0;
+}
+
+.section h2 {
+    margin-bottom: 20px;
+    color: #d06627;
+}
+
+.section p {
+    margin-bottom: 15px;
+    color: #f0f0f0;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 320px;
+}
+
+.card-img-top {
+    max-height: 150px;
+    object-fit: cover;
+}
+
+.card {
+    height: 100%;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.fade {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.fade.in {
+    opacity: 1;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        padding: 60px 0;
+    }
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.card-img-top {
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.reserve-analysis,
+.current-projects,
+.additional-services {
+    display: flex;
+    align-items: center;
+}
+
+.additional-services .card {
+    margin: 0 auto;
+}
