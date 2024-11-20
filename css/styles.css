@@ -1,12 +1,12 @@
 body {
-    background: #001039;
-    color: #FFFFFF;
+    background: white;
+    color: #000000;
     font-family: 'Roboto', sans-serif;
     scroll-behavior: smooth;
 }
 
 header {
-    background-color: #0032a679;
+    background-color: #7c7a7a62;
     padding: 15px 0;
     position: sticky;
     top: 0;
@@ -28,15 +28,15 @@ header {
 .nav-link {
     margin: 0 15px;
     padding: 10px 20px;
-    color: #FFFFFF;
+    color: #000000;
     text-decoration: none;
     border-radius: 30px;
-    background-color: #d06627;
+    background-color: #e9bf4c;
     transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
 }
 
 .nav-link:hover {
-    background-color: #b05f24;
+    background-color: #e9bf4c;
     transform: translateY(-3px);
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
 }
@@ -47,12 +47,12 @@ header {
 
 .section h2 {
     margin-bottom: 20px;
-    color: #d06627;
+    color: #f3c300;
 }
 
 .section p {
     margin-bottom: 15px;
-    color: #f0f0f0;
+    color: #000000;
 }
 
 .card-body {
