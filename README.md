@@ -47,7 +47,6 @@ JavaScript (jQuery and Bootstrap JS)
 **Contact**
 For more information, please reach out to us at:
 
-Email: office@falco-corp.com
-Feel free to explore our website and discover how we can partner with you in the oil and gas industry.
+Email: mbccreations.31@gmail.com
 
-© 2024 Falco Corporation. All rights reserved.
+© 2024 MBC Creations. All rights reserved.
