@@ -19,7 +19,19 @@ header {
     max-width: 150px;
     height: auto;
 }
+.navbar-toggler {
+    border: none;
+}
 
+.navbar-toggler-icon {
+    background-color: transparent; 
+}
+
+.navbar-toggler-icon::before,
+.navbar-toggler-icon::after,
+.navbar-toggler-icon div {
+    background-color: yellow;
+}
 .navbar {
     flex-grow: 1;
 }
