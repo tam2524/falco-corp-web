@@ -17,12 +17,15 @@ header {
 
 .logo {
     max-width: 150px;
-    margin: 0 auto;
-    display: block;
+    height: auto;
 }
 
 .navbar {
-    justify-content: center;
+    flex-grow: 1;
+}
+
+.navbar-nav {
+    margin-left: auto;
 }
 
 .nav-link {
@@ -36,30 +39,32 @@ header {
 }
 
 .nav-link:hover {
-    background-color: #e9bf4c;
+    background-color: #d8a84b;
     transform: translateY(-3px);
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
 }
 
 .section {
-    padding: 60px 0;
+    padding: 60px 15px;
 }
 
 .section h2 {
     margin-bottom: 20px;
     color: #f3c300;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.281);
 }
 
 .section p {
     margin-bottom: 15px;
     color: #000000;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 .card-body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 320px;
+    height: 100%;
 }
 
 .card-img-top {
@@ -91,16 +96,23 @@ header {
     .hero {
         padding: 60px 0;
     }
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .section {
+        padding: 40px 15px;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
 }
 
 .img-fluid {
     max-width: 100%;
     height: auto;
-}
-
-.card-img-top {
-    max-height: 200px;
-    object-fit: cover;
 }
 
 .reserve-analysis,
