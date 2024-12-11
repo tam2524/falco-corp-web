@@ -16,22 +16,24 @@ header {
 }
 
 .logo {
-    max-width: 150px;
+    max-width: 180px;
     height: auto;
 }
+
 .navbar-toggler {
     border: none;
 }
 
 .navbar-toggler-icon {
-    background-color: transparent; 
+    background-color:  #e9bf4c;
 }
 
 .navbar-toggler-icon::before,
 .navbar-toggler-icon::after,
 .navbar-toggler-icon div {
-    background-color: yellow;
+    background-color:  #e9bf4c;
 }
+
 .navbar {
     flex-grow: 1;
 }
