@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../falco-corp-web - Copy/backups"
+		},
+		{
+			"path": "../../falco-corp-web - Copy/css"
+		},
+		{
+			"path": "../../falco-corp-web - Copy/images"
+		},
+		{
+			"path": "../../falco-corp-web - Copy/js"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "falco-corp-web"
+	}
+}
